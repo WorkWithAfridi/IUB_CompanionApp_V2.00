@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kyotobytes.iubca">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Iubca"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".needHelp"></activity>
+        <activity android:name=".QuickLinks" />
+        <activity android:name=".English" />
+        <activity android:name=".Law" />
+        <activity android:name=".EnvSci" />
+        <activity android:name=".LifeScience" />
+        <activity android:name=".MediaAndComm" />
+        <activity android:name=".CgpaCalculator" />
+        <activity android:name=".DeptOfEEE" />
+        <activity android:name=".DeptOfCSE" />
+        <activity android:name=".SchoolOfBusiness" />
+        <activity android:name=".GoogleMaps" />
+        <activity android:name=".FindMyClassRoom" />
+        <activity android:name=".IubAtAGlance" />
+        <activity android:name=".DevWebsite" />
+        <activity android:name=".OfficialWebsite" />
+        <activity android:name=".Iras" />
+        <activity android:name=".Library" />
+        <activity android:name=".Home" />
+        <activity
+            android:name=".SplashScreen"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

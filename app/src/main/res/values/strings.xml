@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IUBCA V2.00</string>
+    <string name="kyotobytes">By Kyoto. :)</string>
+    <string name="blank"> </string>
+    <string name="hello">Hello User. :)</string>
+    <string name="swipeup">Swipe UP!</string>
+    <string name="date_time"><![CDATA[Day && time:]]></string>
+    <string name="SOB">Floor 1 and 2: School Of Business</string>
+    <string name="classlocation">Your classroom is located at....</string>
+    <string name="SOE">Floor 4: School Of Engineering</string>
+    <string name="SOS">Floor 6: Sociology</string>
+    <string name="SOEnv">Floor 8: School Of Environment.</string>
+    <string name="universityname">Independent University Bangladesh</string>
+    <string name="hacks">*Hacks XD*</string>
+
+    <string name="input_hint">Enter room number... ex: BC9015</string>
+</resources>
